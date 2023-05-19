@@ -30,6 +30,41 @@ height: 2176px;
 width: 3912px;
 }
 
+.frame-gogol {
+background: no-repeat;
+background-image: url("../img/back-gogol.svg");
+height: 2176px; 
+width: 3912px;
+}
+
+.frame-griboedov {
+background: no-repeat;
+background-image: url("../img/back-griboedov.svg");
+height: 2176px; 
+width: 3912px;
+}
+
+.frame-ostrovski {
+background: no-repeat;
+background-image: url("../img/back-ostrovski.svg");
+height: 2176px; 
+width: 3912px;
+}
+
+.frame-shekspir {
+background: no-repeat;
+background-image: url("../img/back-shekspir.svg");
+height: 2176px; 
+width: 3912px;
+}
+
+.frame-shiller {
+background: no-repeat;
+background-image: url("../img/back-shiller.svg");
+height: 2176px; 
+width: 3912px;
+}
+
 .frame-header {
     display: flex;
     flex-direction: row;
@@ -106,21 +141,22 @@ margin-left: 1800px;
 	display: flex;
     flex-direction: row;
     justify-content: flex-start;
-	height: 1480px; 
+	height: 1340px; 
 	
 }
 
 .frame-right {
 	background: no-repeat;
-	background-image: url("../img/text.svg");
+
 	height: 1104px; 
 	width: 1801px;
 	margin-left: 100px;
+	margin-top: -100px;
 }
 
 .frame-right-text {
 	background: no-repeat;
-	background-image: url("../img/text.svg");
+	font-size: 48px;
 
 }
 
@@ -148,6 +184,19 @@ margin-left: 1800px;
 .btn-menu-left {
 	background: no-repeat;
 	background-image: url("../img/btn-menu.svg");
+	height: 139px; 
+	width: 940px;	
+	margin-left: 450px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 76px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+.btn-menu-left-lite {
+	background: no-repeat;
+	background-image: url("../img/btn-menu-light.svg");
 	height: 139px; 
 	width: 940px;	
 	margin-left: 450px;
@@ -222,5 +271,31 @@ margin-left: 1800px;
 	padding-left: 100px;
 }
 
+.text-header {
+	text-align: center;
+	font-size: 48px;
+}
 
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
 
+a{text-decoration: none;}
+a:link{ text-decoration: none; color: black;}
+a:visited { text-decoration: none; color: black;}
+a:active { text-decoration: none; color: black;}
+a:hover { color: black;}
+
+.in-btn-main {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.text-griboedov {
+	font-size: 40px;
+}
